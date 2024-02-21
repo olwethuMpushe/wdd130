@@ -1,11 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');:root {
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Poppins&display=swap');
+:root {
     --primary-color: #4A4E69 ;
     --secondary-color: #9A8C98;
     --accent1-color: #C9ADA7;
     --accent2-color: #FFFF;
   
-    --heading-font: 'Roboto', serif;
-    --paragraph-font: 'Roboto', serif;
+    --heading-font: 'Kalam';
+    --paragraph-font: 'Poppins', Helvetica, sans-serif;
   
     --nav-background-color: #4A4E69;
     --nav-link-color: #FFFF;
