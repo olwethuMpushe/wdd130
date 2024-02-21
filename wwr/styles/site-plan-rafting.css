@@ -7,10 +7,10 @@
     --heading-font: 'Roboto', serif;
     --paragraph-font: 'Roboto', serif;
   
-    --nav-background-color: #0e0e0e;
-    --nav-link-color: #1328e4;
-    --nav-hover-link-color: #AF2655;
-    --nav-hover-background-color: #F3F3F3;
+    --nav-background-color: #4A4E69;
+    --nav-link-color: #FFFF;
+    --nav-hover-link-color: #FFFF;
+    --nav-hover-background-color: #9A8C98;
   }
   body {
     font-family: var(--paragraph-font);
