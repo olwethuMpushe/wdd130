@@ -1,78 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+.grid,
+footer {
+    max-width: 840px;
+    margin: 0 auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
 }
 
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+
 nav a {
-    color: white;
+    color: #fff;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
+
 h1 {
     color: steelblue;
+    padding-left: 18px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid steelblue;
 }
-img {
+
+main {
+    margin: 1rem;
+    grid-column: 2/3;
+}
+
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-}
-p{
-    padding: 10px;
+    float: right;
+    margin-top: 16px;
+    margin-left: 16px;
+    margin-bottom: 8px;
 }
 
-main {
-    max-width: 840px;
+p {
+    line-height: 1.5rem;
+    padding: 0;
+    padding-left: 18px;
 }
-main img {
-    width: 150px;
-    height: auto;
-    float: right;
-    margin: 0 0 1rem 1rem;
-}
+
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.2); /* 1️⃣ */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
     text-align: center;
     position: relative;
+    grid-column: 1/2;
+    grid-row: 1/2;
 }
 
-    aside img {
+aside img {
     width: 200px;
     height: auto;
 }
+
 aside h2 {
+    top: 18px;
+    left: 96px;
     position: absolute;
-    top: 67px;
-    left: 150px
 }
 
-p {padding: 0;}
 footer {
-    margin-top: 15px;
+    margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
 }
-/* Class Selectors */
 
+/* Class Selectors */
 .box {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
     background-color: #ddd;
     color: #000;
+    padding-left: 22px;
 }
-aside {
-    width: 20em;
-    text-align: center;
+
+.heart {
+    color: red;
+    font-weight: bolder;
 }
